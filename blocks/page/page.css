@@ -1,20 +1,23 @@
 .page {
-    margin: 0 auto;
-    padding: 0 48px;
-    max-width: 1184px;
     background-color: #2A2C2F;
-    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-family: Inter;
     color: #FFFFFF;
 }
 
+.page-section {
+    margin: 0 auto;
+    padding: 0 48px;
+    max-width: 1184px;
+}
+
 @media screen and (max-width: 780px) {
-    .page {
+    .page-section {
         padding: 0 24px;
     }
 }
 
 @media screen and (max-width: 350px) {
-    .page {
+    .page-section {
         padding: 0 16px;
     }
 }

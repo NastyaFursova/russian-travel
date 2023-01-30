@@ -1,6 +1,19 @@
 .laed__caption {
-    text-align: left;
+    align-self: flex-start;
+    margin: 8px 0 0;
     line-height: 14px;
     font-size: 10px;
     font-weight: 400;
+}
+
+@media screen and (max-width: 780px) {
+    .laed__caption {
+        margin: 8px 0 0 24px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .laed__caption {
+        margin: 8px 0 0 16px;
+    }
 }
