@@ -1,5 +1,25 @@
 .header {
-    display: flex;
+    margin: 0 auto;
+    max-width: 1184px;
     padding-top: 28px;
+    display: flex;
     align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .header {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .header {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .header {
+        padding: 0 16px;
+    }
 }

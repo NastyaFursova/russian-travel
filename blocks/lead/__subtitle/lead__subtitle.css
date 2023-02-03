@@ -8,7 +8,7 @@
     font-weight: 400;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 395px) {
     .lead__subtitle {
         max-width: 288px;
         margin: 16px 0 40px;
