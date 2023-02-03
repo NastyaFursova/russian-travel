@@ -1,4 +1,4 @@
-.laed__caption {
+.lead__caption {
     align-self: flex-start;
     margin: 8px 0 0;
     line-height: 14px;
@@ -9,13 +9,13 @@
 }
 
 @media screen and (max-width: 780px) {
-    .laed__caption {
+    .lead__caption {
         margin: 8px 0 0 24px;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .laed__caption {
+    .lead__caption {
         margin: 8px 0 0 16px;
     }
 }
