@@ -25,7 +25,6 @@
 }
 
 .cover__link:hover.cover__link::before {
-    background-color: #2A2C2F;
     opacity: 80%;
 }
 
